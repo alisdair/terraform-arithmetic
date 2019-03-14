@@ -1,17 +1,11 @@
 module "multiply" {
   source = "../modules/product"
-  a = 4
-  b = 8
-}
-
-module "add" {
-  source = "../modules/sum"
-  a = "${module.multiply.result}"
-  b = 5
+  a = 5
+  b = 12
 }
 
 locals {
-  total = "${module.add.result}"
+  total = "${module.multiply.result}"
 }
 
 output "total" {
