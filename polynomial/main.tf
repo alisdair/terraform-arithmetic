@@ -6,10 +6,10 @@ module "multiply" {
 
 module "add" {
   source = "../modules/sum"
-  a = module.multiply.result
+  a = "${module.multiply.result}"
   b = 5
 }
 
 output "total" {
-  value = module.add.result
+  value = "${module.add.result}"
 }

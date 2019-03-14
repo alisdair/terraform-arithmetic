@@ -1,13 +1,13 @@
 variable "a" {
-  type = number
+  type = "string"
   default = 1
 }
 
 variable "b" {
-  type = number
+  type = "string"
   default = 1
 }
 
 output "result" {
-  value = var.a + var.b
+  value = "${var.a + var.b}"
 }
