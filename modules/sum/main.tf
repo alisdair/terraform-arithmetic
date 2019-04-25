@@ -1,4 +1,4 @@
-# Adding
+# Adding numbers
 
 variable "a" {
   type = "string"
