@@ -1,3 +1,5 @@
+# Multiply two numbers together
+
 variable "a" {
   type = "string"
   default = 1
