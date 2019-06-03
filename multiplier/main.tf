@@ -1,7 +1,7 @@
 module "multiply" {
   source = "../modules/product"
   a = 15
-  b = 14
+  b = 12
 }
 
 locals {
