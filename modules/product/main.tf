@@ -11,5 +11,5 @@ variable "b" {
 }
 
 output "result" {
-  value = "${var.a * var.b * 3}"
+  value = "${var.a * var.b}"
 }
