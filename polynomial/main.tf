@@ -2,7 +2,7 @@
 
 module "multiply" {
   source = "../modules/product"
-  a = 32
+  a = 33
   b = 26
 }
 
