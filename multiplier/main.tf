@@ -1,6 +1,6 @@
 module "multiply" {
   source = "../modules/product"
-  a = 9
+  a = 10
   b = 12
 }
 
